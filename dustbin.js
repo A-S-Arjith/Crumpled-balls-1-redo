@@ -16,8 +16,8 @@ class Dustbin {
       push();
       translate(pos.x, pos.y);
       rectMode(CENTER);
-      fill("grey");
       rect(0, 0, this.width,this.height);
+      fill("white")
       pop();
     }
   };
